@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Navigation } from "@/components/Navigation";
 import { Hero } from "@/components/Hero";
 import { ModuleCard } from "@/components/ModuleCard";
 import { ModuleDetail } from "@/components/ModuleDetail";
@@ -11,6 +12,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <Navigation />
       <Hero />
       
       <TrainingFeatures />
