@@ -1,3 +1,4 @@
+import React from "react";
 import { Navigation } from "@/components/Navigation";
 import { trainingModules } from "@/data/trainingData";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
