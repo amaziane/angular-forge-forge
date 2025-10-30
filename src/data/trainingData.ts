@@ -160,29 +160,31 @@ export const trainingModules: Module[] = [
   },
   {
     id: 7,
-    title: "Performance & Architecture",
-    subtitle: "Optimisation et scalabilité",
-    duration: "10h",
+    title: "Angular Moderne : Signals & Performance",
+    subtitle: "Nouvelle génération réactive + optimisation",
+    duration: "12h",
     difficulty: "Avancé",
     topics: [
-      "Change Detection Strategy",
-      "OnPush components",
-      "TrackBy functions",
-      "Memoization techniques",
-      "Angular Signals (17+)",
-      "Standalone Components",
-      "Code splitting & Bundle optimization",
-      "Performance profiling"
+      "🎯 Angular Signals (17+) : primitives réactives",
+      "Computed values & Effects",
+      "Signal-based Components",
+      "Migration RxJS → Signals",
+      "Change Detection Strategy (OnPush vs Default)",
+      "Standalone Components & Architecture moderne",
+      "TrackBy functions & optimisations listes",
+      "Code splitting & Lazy Loading avancé",
+      "Performance profiling (Chrome DevTools)",
+      "Design Patterns Angular (Facade, Adapter, Observer)"
     ],
     objectives: [
-      "Optimiser les performances de l'app",
-      "Maîtriser la change detection",
-      "Migrer vers standalone components",
-      "Utiliser les Signals modernes"
+      "Maîtriser les Signals et la réactivité moderne",
+      "Optimiser drastiquement les performances",
+      "Appliquer les design patterns Angular professionnels",
+      "Migrer du code legacy vers les standards modernes"
     ],
-    exercises: 3,
+    exercises: 4,
     labs: 1,
-    quiz: 10
+    quiz: 12
   },
   {
     id: 8,
@@ -242,7 +244,7 @@ export const trainingModules: Module[] = [
 export const trainingInfo = {
   title: "Formation Angular Professionnelle",
   subtitle: "De débutant à développeur Angular confirmé",
-  duration: "92 heures",
+  duration: "94 heures",
   level: "Débutant à Avancé",
   format: "En ligne & Présentiel",
   prerequisites: [
@@ -257,12 +259,14 @@ export const trainingInfo = {
     "Reconversion professionnelle"
   ],
   skills: [
-    "Construire des applications Angular maintenables",
-    "Maîtriser la Dependency Injection",
+    "Construire des applications Angular maintenables avec Angular 17+",
+    "Maîtriser les Signals et la réactivité moderne",
     "Utiliser RxJS professionnellement",
-    "Architecturer des modules scalables",
-    "Optimiser les performances",
+    "Appliquer les design patterns Angular (Facade, Observer, Adapter)",
+    "Architecturer des modules scalables avec Standalone Components",
+    "Optimiser les performances (Change Detection, Lazy Loading)",
+    "Maîtriser la Dependency Injection avancée",
     "Tester le code efficacement",
-    "Consommer des API REST"
+    "Consommer des API REST avec HttpClient et Interceptors"
   ]
 };

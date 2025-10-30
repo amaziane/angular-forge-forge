@@ -58,11 +58,10 @@ const Tarifs = () => {
   ];
 
   const entrepriseAdvantages = [
-    "Prise en charge OPCO possible",
-    "Éligible au CPF",
     "Devis sous 48h",
     "Facturation en plusieurs fois",
     "Convention de formation fournie",
+    "Adaptation au niveau de l'équipe",
   ];
 
   return (
@@ -176,12 +175,12 @@ const Tarifs = () => {
           <div className="space-y-6">
             <Card>
               <CardHeader>
-                <CardTitle className="text-lg">La formation est-elle éligible au CPF ?</CardTitle>
+                <CardTitle className="text-lg">Quelle version d'Angular est enseignée ?</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  Oui, notre formation Angular est éligible au Compte Personnel de Formation (CPF) 
-                  et référencée sur Mon Compte Formation.
+                  Nous enseignons Angular 17+, incluant les dernières fonctionnalités comme les Signals, 
+                  les Standalone Components et les meilleures pratiques modernes.
                 </p>
               </CardContent>
             </Card>
